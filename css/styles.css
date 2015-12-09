@@ -218,9 +218,9 @@ Hero
 .hero h1 { font-size: 40px; letter-spacing: 12px; margin: 10px; color: #5CAB01; }
 .hero h1 span { color: #FBDE3E; display: inline-block; }
 .hero p { letter-spacing: 1px; font-size: 20px;
-    color: #000; text-shadow: 0 1px 0 #fff,1px 0 0 #fff,0 -1px 0 #fff,-1px 0 0 #fff,-1px -1px 0 #fff,1px -1px 0 #fff,-1px 1px 0 #fff,1px 1px 0 #fff;
+    -webkit-text-stroke-color: #ddd;
+    -webkit-text-stroke-width: 1px;
 }
-
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
 /* ==========================================================================
@@ -228,6 +228,8 @@ Intro
 ========================================================================== */
 .intro { background: #f3f5f8; }
 .intro p { margin: 30px 0 0; color: #000; font-size: 15px;}
+.intro .red { color: red; }
+.intro a { margin: 0px; margin-top: 30px; border-color: #FB3E3E; color: #555;}
 h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
 /* ==========================================================================
 Features
