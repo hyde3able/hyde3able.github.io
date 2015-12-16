@@ -16,7 +16,7 @@ $(function() {
         /* フォーム部分 */
         var form_html = (function() {/*
 <div id="joinField" style="display:none;">
-<form class="form-horizontal" role="form" id="join">
+<form class="form-horizontal" role="form" id="join" method="post">
     <div class="form-group">
         <label for="joinName" class="col-sm-2 control-label">
             名前
