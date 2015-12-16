@@ -1,0 +1,28 @@
+body{margin: 0;}
+.events {list-style-type: none; margin: 0 auto; padding: 10px 0; height: auto;}
+.events div > li { margin: 15px 5px; border: 1px solid #3dc9b3; padding: 20px auto; }
+@media (min-width: 992px) and (max-width: 1199px){
+    .events div > li { margin-left: 16.6667%; }
+    .event table { width: 80%; }
+}
+@media (min-width: 1200px) {
+    .events div > li {margin-left: 20.833%;}
+}
+.events div > li:hover { background-color: rgba(240, 240, 240, .8); }
+.event-btn { display: inline-block; padding: 25px 40px; color: black; border: solid 1px #FB3E3E; text-transform: : uppercase; font-weight: : bold; letter-spacing: 1px;}
+.event-btn:hover, .event-btn:focus {color: #3dc9b3; border: solid 1px #3dc9b3;}
+
+.event form { margin: 0 auto; }
+.event ul.members {list-style-type: none; margin: 0 auto; margin-bottom: 30px;}
+.event ul.members > li {height: 30px; height: auto; border-radius: 5px; padding: 8px; float: left; margin: 5px; position:relative;}
+.event ul.members > li span {margin: 0 10px; font-weight: bold;}
+.event ul.members > li.male { border: 2px solid #0B407B;}
+.event ul.members > li.female { border: 2px solid #BC2C02;}
+.event h2 { text-align: center;}
+.event span.date{ position: absolute; right: 10px; top: 20px; padding: 5px; border: 1px solid #F0A70A; border-radius: 5px;}
+.event #join-btn {margin-bottom: 10px;}
+
+.event table {width: 100%; border-collapse: collapse;}
+table tr:first-child {border-top: 1px solid #FFCB68;}
+.event th {border-bottom: #FFCB68 1px solid; border-left: #FFCB68 1px solid; text-align: left; background-color: #f7f7f7; padding: 10px; font-weight: normal;}
+.event td {border-bottom: #FFCB68 1px solid; border-right: #FFCB68 1px solid; padding: 10px; }
