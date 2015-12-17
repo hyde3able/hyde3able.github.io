@@ -31,7 +31,8 @@ html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgb
 * elements. */
 html, button, input, select, textarea { font-family: 'Varela Round', sans-serif; }
 /* * Addresses margins handled incorrectly in IE 6/7. */
-body { margin: 0; font-family: 'Varela Round', sans-serif; }
+body { margin: 0; font-family: 'Varela Round', sans-serif; width: 100%;}
+.wrap {overflow:hidden;}
 /* ==========================================================================
 Links
 ========================================================================== */
