@@ -323,7 +323,7 @@ Contact
 .contact-details { margin: 70px 0;}
 .contact-details div { margin-bottom: 20px; }
 .contact-details h2 { font-size: 20px; }
-.contact-details img {height: 200px; width: auto;}
+.contact-details img {height: auto; width: 90%; margin: 0 auto;}
 .contact-details h2 span { display: block; color: #3dc9b3; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
 .contact-wrap { position: relative; }
 /* ==========================================================================
